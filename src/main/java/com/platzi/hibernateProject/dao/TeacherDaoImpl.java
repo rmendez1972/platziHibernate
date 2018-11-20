@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.platzi.hibernateProject.model.Teacher;
 
-public class TeacherDaoImpl implements TeacherDao {
+public class TeacherDaoImpl extends PlatziSession implements TeacherDao {
 
 	public void saveTeacher(Teacher teacher) {
 		// TODO Auto-generated method stub
